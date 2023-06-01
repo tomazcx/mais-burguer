@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@presentation/*": [
+        "./src/presentation/*"
+      ],
+      "@domain/*": [
+        "./src/domain/*"
+      ],
+      "@implementation/*": [
+        "./src/implementation/*"
+      ],
+      "@infra/*": [
+        "./src/infra/*"
+      ]
+    },
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
